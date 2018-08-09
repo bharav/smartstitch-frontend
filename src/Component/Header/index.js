@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./header.css"
 
 class Header extends Component {
     render() {
@@ -12,7 +13,7 @@ class Header extends Component {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="#">Smart Stich</a>
+                    <a className="navbar-brand" href="#"><img src="https://vivtestfunctionstorage.blob.core.windows.net/smartstitchimages/logo.png" className="stitchlogo"/></a>
                 </div>
                 <div className="collapse navbar-collapse pull-right" id="myNavbar">
                     <ul className="nav navbar-nav">
